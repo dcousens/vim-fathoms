@@ -7,24 +7,25 @@ set background=dark
 let colors_name = "fathoms"
 
 " text
-hi Normal     ctermfg=251
-hi Visual               ctermbg=236
+hi Normal     ctermfg=251 ctermbg=0
+hi Visual                 ctermbg=236
 
 " special text
-hi Error      ctermfg=0 ctermbg=9
-hi ErrorMsg   ctermfg=0 ctermbg=9
-hi MatchParen ctermfg=0 ctermbg=150
-hi SpellBad   ctermfg=0 ctermbg=9
+hi Error      ctermfg=0   ctermbg=9
+hi ErrorMsg   ctermfg=0   ctermbg=9
+hi MatchParen ctermfg=0   ctermbg=150
+hi SpellBad   ctermfg=0   ctermbg=9
 
 " layout
 hi VertSplit  ctermfg=234 ctermbg=236
-hi Folded     ctermfg=236
-hi LineNr     ctermfg=236
+hi Folded     ctermfg=236 ctermbg=0
+hi LineNr     ctermfg=236 ctermbg=0
+hi SignColumn ctermfg=236 ctermbg=0
 
 " language
 hi Comment    ctermfg=240
 hi Ignore     ctermfg=240
-hi Todo       ctermfg=0 ctermbg=9
+hi Todo       ctermfg=0   ctermbg=9
 
 hi PreProc    ctermfg=150
 
