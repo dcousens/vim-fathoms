@@ -4,7 +4,7 @@ if exists("syntax_on")
 endif
 
 set background=dark
-let colors_name = "fathoms"
+let colors_name = "fathoms256"
 
 " text
 hi Normal     ctermfg=251 ctermbg=0
@@ -21,6 +21,9 @@ hi VertSplit  ctermfg=234 ctermbg=236
 hi Folded     ctermfg=236 ctermbg=0
 hi LineNr     ctermfg=236 ctermbg=0
 hi SignColumn ctermfg=236 ctermbg=0
+
+hi Pmenu      ctermfg=8 ctermbg=14
+hi PmenuSel   ctermfg=15 ctermbg=14
 
 " language
 hi Comment    ctermfg=240
