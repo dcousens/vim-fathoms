@@ -28,10 +28,14 @@ hi Normal     ctermfg=7 ctermbg=0
 hi Visual     ctermfg=15 ctermbg=4
 
 " special text
+hi Debug      ctermfg=15 ctermbg=9
 hi Error      ctermfg=15 ctermbg=9
-hi ErrorMsg   ctermfg=0 ctermbg=9
+hi ErrorMsg   ctermfg=15 ctermbg=9
 hi MatchParen ctermfg=15 ctermbg=13
 hi SpellBad   ctermfg=15 ctermbg=9
+hi SpellCap   ctermfg=15 ctermbg=9
+hi SpellLocal ctermfg=15 ctermbg=9
+hi WarningMsg ctermfg=15 ctermbg=9
 
 " layout
 hi VertSplit  ctermfg=0 ctermbg=12
