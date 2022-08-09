@@ -7,14 +7,14 @@ let s:airline_b_normal = ['#000000', '#000000', 7, 0] " file visible
 let s:airline_c_normal = ['#000000', '#000000', 8, 0] " file buffers
 
 let s:airline_a_normal_paste = ['#000000', '#000000', 0, 3] " modal
-let s:airline_c_normal_modified = ['#000000', '#000000', 9, 0] " ba
+let s:airline_c_normal_modified = ['#000000', '#000000', 9, 0] " bar
 
 " insert
 let s:airline_a_insert = ['#000000', '#000000', 15, 9] " modal
 let s:airline_b_insert = ['#000000', '#000000', 7, 0] " diff
 let s:airline_c_insert = ['#000000', '#000000', 8, 0] " bar
 
-" visua
+" visual
 let s:airline_a_visual = ['#000000', '#000000', 15, 4] " modal
 let s:airline_b_visual = ['#000000', '#000000', 7, 0] " diff
 let s:airline_c_visual = ['#000000', '#000000', 8, 0] " bar
