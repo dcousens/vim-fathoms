@@ -13,6 +13,7 @@ hi Danger       ctermfg=9 cterm=underdotted
 hi Highlight    ctermfg=14 ctermbg=8
 hi Highlight1   ctermfg=14
 hi Highlight2   ctermfg=15 ctermbg=8 cterm=bold
+hi Notice       ctermfg=14 cterm=bold
 
 hi Special0     ctermfg=10
 hi Special1     ctermfg=110
@@ -23,13 +24,13 @@ hi Special4     ctermfg=73
 " special
 hi! link Visual                     DullInv
 hi! link Comment                    Dull
-hi! link Todo                       Highlight2
+hi! link Todo                       Notice
 hi! link DiagnosticSignError        Danger
 hi! link DiagnosticUnderlineError   Danger
 hi! link Search                     Highlight
-hi! link CurSearch                  Highlight
-hi! link IncSearch                  Highlight
-hi! link MatchParen                 Highlight
+hi! link CurSearch                  Highlight2
+hi! link IncSearch                  Highlight2
+hi! link MatchParen                 Highlight2
 
 " netrw
 hi! link Directory   Special1
