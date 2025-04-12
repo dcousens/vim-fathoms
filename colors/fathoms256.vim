@@ -11,6 +11,7 @@ hi DullInv      ctermfg=14 ctermbg=8
 hi DullInv2     ctermfg=15 ctermbg=8 cterm=underline
 hi Danger       ctermfg=9 cterm=underdotted
 hi Highlight    ctermfg=14 ctermbg=8
+hi Highlight1   ctermfg=14
 hi Highlight2   ctermfg=15 ctermbg=8 cterm=bold
 
 hi Special0     ctermfg=10
@@ -28,18 +29,18 @@ hi! link DiagnosticUnderlineError   Danger
 hi! link Search                     Highlight
 hi! link CurSearch                  Highlight
 hi! link IncSearch                  Highlight
-hi! link CursorLineNr               DullInv
 hi! link MatchParen                 Highlight
 
 " netrw
 hi! link Directory   Special1
 
 " layout
-hi! link Folded      Dull
-hi! link LineNr      Dull
-hi! link SignColumn  Dull
-hi! link Pmenu       DullInv
-hi! link PmenuSel    DullInv2
+hi! link Folded        Dull
+hi! link LineNr        Dull
+hi! link CursorLineNr  Highlight1
+hi! link SignColumn    Highlight1
+hi! link Pmenu         DullInv
+hi! link PmenuSel      DullInv2
 
 " language
 hi! link Boolean     Special0
