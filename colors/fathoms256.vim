@@ -17,6 +17,7 @@ hi Special0     ctermfg=10
 hi Special1     ctermfg=110
 hi Special2     ctermfg=69
 hi Special3     ctermfg=68
+hi Special4     ctermfg=73
 
 " special
 hi! link Visual                     DullInv
@@ -53,5 +54,5 @@ hi! link Identifier  Special1
 hi! link Include     Dull
 hi! link Keyword     Special2
 hi! link Repeat      Special2
-hi! link Special     Special2
+hi! link Special     Special4
 hi! link Type        Special3
