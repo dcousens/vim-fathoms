@@ -49,10 +49,11 @@ hi! link Float       Special0
 hi! link Number      Special0
 hi! link String      Special0
 
-hi! link Conditional Special1
+hi! link Conditional Special3
 hi! link Identifier  Special1
 hi! link Include     Dull
 hi! link Keyword     Special2
-hi! link Repeat      Special2
+hi! link Repeat      Special3
 hi! link Special     Special4
-hi! link Type        Special3
+hi! link Statement   Special3
+hi! link Type        Special2
