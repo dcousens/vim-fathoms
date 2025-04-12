@@ -10,25 +10,25 @@ hi Dull         ctermfg=8
 hi DullInv      ctermfg=14 ctermbg=8
 hi DullInv2     ctermfg=15 ctermbg=8 cterm=underline
 hi Danger       ctermfg=9 cterm=underdotted
-hi Attention    ctermfg=9 cterm=bold
-hi AttentionInv ctermfg=14 ctermbg=8
+hi Highlight    ctermfg=14 ctermbg=8
+hi Highlight2   ctermfg=15 ctermbg=8 cterm=bold
 
 hi Special0     ctermfg=10
 hi Special1     ctermfg=110
-hi Special2     ctermfg=73
+hi Special2     ctermfg=69
 hi Special3     ctermfg=68
 
 " special
 hi! link Visual                     DullInv
 hi! link Comment                    Dull
-hi! link Todo                       Attention
+hi! link Todo                       Highlight2
 hi! link DiagnosticSignError        Danger
 hi! link DiagnosticUnderlineError   Danger
-hi! link Search                     AttentionInv
-hi! link CurSearch                  AttentionInv
-hi! link IncSearch                  AttentionInv
+hi! link Search                     Highlight
+hi! link CurSearch                  Highlight
+hi! link IncSearch                  Highlight
 hi! link CursorLineNr               DullInv
-hi! link MatchParen                 Attention
+hi! link MatchParen                 Highlight
 
 " netrw
 hi! link Directory   Special1
