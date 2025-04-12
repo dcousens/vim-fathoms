@@ -1,7 +1,5 @@
-highlight clear
-if exists("syntax_on")
-  syntax reset
-endif
+hi clear
+syntax reset
 
 set background=dark
 let colors_name = "fathoms16"
@@ -25,6 +23,8 @@ let colors_name = "fathoms16"
 " 5  Magenta
 " 6  Cyan
 " 7  White
+
+runtime colors/none.vim
 
 " text
 hi Normal       ctermfg=7 ctermbg=0
