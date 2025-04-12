@@ -1,5 +1,5 @@
-# fathoms16.vim
+# fathoms.vim
 
 ``` vimrc
-colorscheme fathoms16
+colorscheme fathoms256
 ```
