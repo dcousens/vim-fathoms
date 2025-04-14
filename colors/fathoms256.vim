@@ -53,10 +53,10 @@ hi! link String      Special0
 
 hi! link Operator    Special3
 hi! link Conditional Special3
-hi! link Identifier  Special1
+hi! link Identifier  Special2
 hi! link Include     Dull
 hi! link Keyword     Special2
 hi! link Repeat      Special3
 hi! link Special     Special4
 hi! link Statement   Special3
-hi! link Type        Special2
+hi! link Type        Special1
