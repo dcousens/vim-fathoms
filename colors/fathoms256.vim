@@ -7,19 +7,19 @@ let colors_name = "fathoms256"
 runtime colors/none.vim
 
 hi Dull         ctermfg=8
-hi DullInv      ctermfg=14 ctermbg=8
+hi DullInv      ctermfg=6 ctermbg=8
 hi DullInv2     ctermfg=15 ctermbg=8 cterm=underline
 hi Danger       ctermfg=9 cterm=underdotted
-hi Highlight    ctermfg=14 ctermbg=8
-hi Highlight1   ctermfg=14
-hi Highlight2   ctermfg=15 ctermbg=8 cterm=bold
+hi Highlight    ctermfg=14
+hi Highlight1   ctermfg=14 ctermbg=8 cterm=italic
+hi Highlight2   ctermfg=15 ctermbg=8 cterm=italic,bold
 hi Notice       ctermfg=14 cterm=bold
 
 hi Special0     ctermfg=10
-hi Special1     ctermfg=110
-hi Special2     ctermfg=69
-hi Special3     ctermfg=68
-hi Special4     ctermfg=73
+hi Special1     ctermfg=14
+hi Special2     ctermfg=12
+hi Special3     ctermfg=6
+hi Special4     ctermfg=4
 
 " special
 hi! link Visual                     DullInv
@@ -27,7 +27,7 @@ hi! link Comment                    Dull
 hi! link Todo                       Notice
 hi! link DiagnosticSignError        Danger
 hi! link DiagnosticUnderlineError   Danger
-hi! link Search                     Highlight
+hi! link Search                     Highlight1
 hi! link CurSearch                  Highlight2
 hi! link IncSearch                  Highlight2
 hi! link MatchParen                 Highlight2
@@ -38,8 +38,8 @@ hi! link Directory   Special1
 " layout
 hi! link Folded        Dull
 hi! link LineNr        Dull
-hi! link CursorLineNr  Highlight1
-hi! link SignColumn    Highlight1
+hi! link CursorLineNr  Highlight
+hi! link SignColumn    Highlight
 hi! link Pmenu         DullInv
 hi! link PmenuSel      DullInv2
 
@@ -51,6 +51,7 @@ hi! link Float       Special0
 hi! link Number      Special0
 hi! link String      Special0
 
+hi! link Operator    Special3
 hi! link Conditional Special3
 hi! link Identifier  Special1
 hi! link Include     Dull
