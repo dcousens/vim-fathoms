@@ -30,6 +30,7 @@ hi! link DiagnosticUnderlineError   Danger
 hi! link Search                     Highlight1
 hi! link CurSearch                  Highlight2
 hi! link IncSearch                  Highlight2
+hi! link Substitute                 Highlight1
 hi! link MatchParen                 Highlight2
 
 " netrw
