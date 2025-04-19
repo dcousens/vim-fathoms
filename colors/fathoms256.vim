@@ -23,7 +23,6 @@ hi Special4     ctermfg=4
 
 " special
 hi! link Visual                     DullInv
-hi! link Comment                    Dull
 hi! link Todo                       Notice
 hi! link DiagnosticSignError        Danger
 hi! link DiagnosticUnderlineError   Danger
@@ -52,13 +51,16 @@ hi! link Float       Special0
 hi! link Number      Special0
 hi! link String      Special0
 
-hi! link Conditional Special3
-hi! link Exception   Special3
+hi! link Comment     Dull
 hi! link Identifier  Special2
 hi! link Include     Dull
-hi! link Keyword     Special2
+hi! link PreProc     Special0
+hi! link Special     Special4
+hi! link Type        Special1
+
+hi! link Conditional Special3
+hi! link Exception   Special3
+hi! link Keyword     Special3
 hi! link Operator    Special3
 hi! link Repeat      Special3
-hi! link Special     Special4
 hi! link Statement   Special3
-hi! link Type        Special1
