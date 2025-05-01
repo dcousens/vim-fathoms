@@ -43,6 +43,17 @@ hi! link SignColumn    Highlight
 hi! link Pmenu         DullInv
 hi! link PmenuSel      DullInv2
 
+" lsp
+hi! link @markup                                 DullInv
+hi! link @markup.heading                         DullInv
+hi! link @markup.heading.1.delimiter.vimdoc      DullInv
+hi! link @markup.heading.2.delimiter.vimdoc      DullInv
+hi! link @markup.italic                          DullInv
+hi! link @markup.link                            DullInv
+hi! link @markup.strikethrough                   DullInv
+hi! link @markup.strong                          DullInv
+hi! link @markup.underline                       DullInv
+
 " language
 hi! link Boolean     Special0
 hi! link Character   Special0
